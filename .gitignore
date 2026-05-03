@@ -1,0 +1,21 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Claude Code session pin (per-machine)
+.claude-session
+.codex-session
+.gemini-session
+.playwright-mcp/
+
+# Local environment
+.env
+.env.local
+.env.*.local
+
+# Build output (none yet, but reserved)
+node_modules/
+dist/
+.cache/

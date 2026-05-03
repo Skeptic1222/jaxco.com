@@ -1,0 +1,7 @@
+# jaxco.com — refreshing things, placeholder period
+# The 1997-2004 archive is preserved at migration-snapshots/jaxco-2026-05-03/
+# Switch to "Allow: /" once the new content lands.
+User-agent: *
+Disallow: /
+
+Sitemap: https://jaxco.com/sitemap.xml

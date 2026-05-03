@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Jaxco — Refreshing things</title>
+  <meta name="description" content="Jaxco is being refreshed. Back soon.">
+  <meta name="theme-color" content="#F5F1E8">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bone: #F5F1E8;
+      --warm-gray: #5C5751;
+      --warm-gray-soft: rgba(92, 87, 81, 0.65);
+      --rule: rgba(92, 87, 81, 0.18);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Newsreader', Georgia, serif;
+      background: var(--bone);
+      color: var(--warm-gray);
+      line-height: 1.55;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.5rem;
+    }
+    .card {
+      max-width: 520px;
+      width: 100%;
+      text-align: center;
+    }
+    .wordmark {
+      font-family: 'Newsreader', Georgia, serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: clamp(2.5rem, 8vw, 4rem);
+      line-height: 1.05;
+      color: var(--warm-gray);
+      margin-bottom: 2rem;
+    }
+    .rule {
+      width: 48px;
+      height: 1px;
+      background: var(--rule);
+      margin: 0 auto 2rem;
+    }
+    .lede {
+      font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+      font-weight: 400;
+      margin-bottom: 0.85rem;
+      color: var(--warm-gray);
+    }
+    .sub {
+      font-size: 1rem;
+      font-style: italic;
+      color: var(--warm-gray-soft);
+    }
+    footer {
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--warm-gray-soft);
+      letter-spacing: 0.05em;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { scroll-behavior: auto !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article class="card">
+      <h1 class="wordmark">Jaxco</h1>
+      <div class="rule" aria-hidden="true"></div>
+      <p class="lede">We're refreshing things.</p>
+      <p class="sub">Back soon.</p>
+    </article>
+  </main>
+  <footer>© 2026 Jaxco</footer>
+</body>
+</html>
