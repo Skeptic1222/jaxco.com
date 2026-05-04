@@ -1,0 +1,64 @@
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+.headline {
+	font-size: 13px;
+	font-weight: bold;
+	color: #661130;
+}
+.headline2 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+}
+.navtext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #E2DBAD;
+	margin: 12px;
+}
+.copyright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #E2DBAD;
+	margin: 12px;
+}
+.copyright2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	margin: 12px;
+}
+
+a:visited, a:link {
+	color: #661130;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #661130;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.werc a:link, .werc a:visited {
+	color: #D29566;
+	text-decoration: none;
+	font-weight: bold;
+}
+.werc a:hover {
+	color: #D29566;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.navtext a:link, .navtext a:visited {
+	color: #661130;
+	text-decoration: none;
+}
+.navtext a:hover {
+	color: #661130;
+	text-decoration: underline;
+}

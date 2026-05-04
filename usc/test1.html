@@ -1,0 +1,137 @@
+<html>
+<head>
+<title>Category Manager</title>
+<link rel="stylesheet" href="gui.css" type="text/css">
+</head>
+
+<body background="http://www.usc.edu/assets/std/bg-stripes-light.gif">
+
+<!-- start usc monogram logo -->
+<div style="position: absolute; top: 0px; right: 0px;  z-index: 1"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr> 
+		<td><img src="http://www.usc.edu/assets/std/spacer.gif" width="600" height="25" alt="" class="block" /></td>
+		<td width="94" height="75" rowspan="2" align="right" valign="top"><a href="http://www.usc.edu"><img src="http://www.usc.edu/usc/img/01/mono-gold-black-big.gif" alt="" width="94" height="75" border="0" /></a></td>
+	</tr>
+	<tr> 
+		<td><img src="http://www.usc.edu/assets/std/spacer.gif" width="600" height="50" alt="" class="block" /></td>
+	</tr>
+</table>
+</div>
+<!-- end usc monogram logo -->
+
+<!-- begin monogram bar -->
+<div style="position: absolute; top: 0px; left: 0px;  z-index: 2">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td> 
+		<table width="700" cellspacing="0" cellpadding="0" border="0">
+			<tr> 
+				<td height="25" align="left" valign="top"> <a href="http://www.usc.edu"><img src="http://www.usc.edu/usc/img/01/usc-name-gold-cardinal.gif" border="0" alt="University of Southern California" class="block" width="255" height="25" /></a></td>
+			</tr>
+			<tr> 
+				<td height="50" align="left"><img src="images/title.gif" border="0" alt="USC Marshall" class="block" width="250" height="50" /></td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+</div>
+<!-- end monogram bar -->
+
+<!-- begin background -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td bgcolor="#990000"><img src="http://www.usc.edu/assets/std/spacer.gif" width="750" height="25" alt="" class="block" /></td>
+	</tr>
+	<tr>
+		<td bgcolor="#990000"><img src="http://www.usc.edu/assets/std/spacer.gif" width="750" height="50" alt="" class="block" /></td>
+	</tr>
+</table>
+<!-- end background -->
+
+<!-- begin altered sample code -->
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+	<tr valign="top">
+		<td align="center"><div id="catbg"><br><br>
+
+		<!-- <h1>Category Manager</h1> -->
+		<img src="images/cm.gif" alt="Category Manager" width="210" height="22" border="0">
+					
+		<form name="f" method="post" action="/portal/proto/sample.jsp">
+		<input type="hidden" name="activity" value="">
+		<input type="hidden" name="categoryId" value="2" />
+		
+		<table cellpadding="6" cellspacing="0" width="275"  bgcolor="#990000" class="dgl">
+			<tr>
+				<td class="smallheader">Category</td>
+				<td><input type="text" name="categoryDesc" maxlength="100" value="" /> </td>
+				<td colspan="2" align="middle"><input type="submit" value="Add" onClick="activity.value='add';" /></td>
+			</tr>
+		</table>
+		
+		</form>
+		</div></td>
+	</tr>
+</table>					
+		
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td bgcolor="#000000"><img src="http://www.usc.edu/assets/std/spacer.gif" width="750" height="5" alt="" class="block" /></td>
+	</tr>
+</table>
+ 		
+<table class="dgli" cellspacing="0" cellpadding="4">
+	<tr bgcolor="#990000">
+		<td class="dglb" align="left">Category A<br></td>
+		<td  class="dglb" align="right"><a href="/portal/proto/sample.jsp?activity=find&categoryId=1">EDIT</a></td>
+	</tr>
+	<tr bgcolor="#FFFFFF">
+		<td colspan="2"><img src="images/pixel.gif" height="100"></td>
+	</tr>
+</table>
+
+<table class="dgli" cellspacing="0" cellpadding="4">
+	<tr bgcolor="#990000">
+		<td class="dglb" align="left">Category B<br></td>
+		<td  class="dglb" align="right"><a href="/portal/proto/sample.jsp?activity=find&categoryId=2">EDIT</a></td>
+	</tr>
+	<tr bgcolor="#FFFFFF">
+		<td colspan="2"><img src="images/pixel.gif" height="100"></td>
+	</tr>
+</table>
+
+<table class="dgli" cellspacing="0" cellpadding="4">
+	<tr bgcolor="#990000">
+		<td class="dglb" align="left">Category C<br></td>
+		<td  class="dglb" align="right"><a href="/portal/proto/sample.jsp?activity=find&categoryId=3">EDIT</a></td>
+	</tr>
+	<tr bgcolor="#FFFFFF">
+		<td colspan="2"><img src="images/pixel.gif" height="100"></td>
+	</tr>
+</table>
+
+<table class="dgli" cellspacing="0" cellpadding="4">
+	<tr bgcolor="#990000">
+		<td class="dglb" align="left">Category D<br></td>
+		<td  class="dglb" align="right"><a href="/portal/proto/sample.jsp?activity=find&categoryId=4">EDIT</a></td>
+	</tr>
+	<tr bgcolor="#FFFFFF">
+		<td colspan="2"><img src="images/pixel.gif" height="100"></td>
+	</tr>
+</table>
+
+<table class="dgli" cellspacing="0" cellpadding="4">
+	<tr bgcolor="#990000">
+		<td class="dglb" align="left">Category E<br></td>
+		<td  class="dglb" align="right"><a href="/portal/proto/sample.jsp?activity=find&categoryId=5">EDIT</a></td>
+	</tr>
+	<tr bgcolor="#FFFFFF">
+		<td colspan="2"><img src="images/pixel.gif" height="100"></td>
+	</tr>
+</table>
+
+<br>
+
+</body>
+</html>

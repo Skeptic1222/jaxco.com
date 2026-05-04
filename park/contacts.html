@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>lacivicpark.org :: contacts</title>
+<link href="newpark.css" rel="stylesheet" type="text/css" />
+<script language = JavaScript>
+// 
+if (document.images) {
+  img1on = new Image();
+  img1on.src = "images/b.on.gif";
+  img1off = new Image();
+  img1off.src = "images/b.off.gif";
+  img2on = new Image();
+  img2on.src = "images/r.on.gif";
+  img2off = new Image();
+  img2off.src = "images/r.off.gif";
+  img3on = new Image();
+  img3on.src = "images/i.on.gif";
+  img3off = new Image();
+  img3off.src = "images/i.off.gif";
+  img4on = new Image();
+  img4on.src = "images/c.on.gif";
+  img4off = new Image();
+  img4off.src = "images/c.off.gif";
+   }
+function rollOver() {
+  if (document.images) {
+    for (var i=0; i<rollOver.arguments.length; i+=2) {
+      document[rollOver.arguments[i]].src = eval(rollOver.arguments[i+1] + ".src");
+    }
+  }
+}
+//
+</script> 
+<style type="text/css">
+<!--
+.links {	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #7FC200;
+}
+.links1 {	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; COLOR: #7fc200; PADDING-TOP: 2px; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.style2 {PADDING-LEFT: 2px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; COLOR: #7fc200; PADDING-TOP: 2px; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; padding-right: 2px;}
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+</head>
+
+<body>
+<div id="logo"><a href="main.html"><img src="images/header.gif" alt="lacivicpark.org" width="297" height="66" border="0"></a></div>
+<p><br>
+<p class="style1">CONTACTS<!--  :: <a href="#contact">contact officials</a> :: <a href="#case">case-related documents</a> :: <a href="#web">web resources</a> --></p>
+<a name="contact"></a> 
+<p><span class="style1">City Officials</span><p>
+Mayor Antonio Villaraigosa<br>
+200 North Spring Street, Room 303<br>
+Los Angeles, CA 90012<br>
+Phone: (213) 978-0600<br>
+Fax: (213) 978-0750 <br>
+<a href="mailto:mayor@lacity.org">email</a></p>
+
+<p>Councilwoman Jan Perry<br>
+200 North Spring Street, Room 420<br>
+Los Angeles, CA 90012<br>
+Phone: (213) 473-7009<br>
+<a href="mailto:perry@council.lacity.org">email</a></p>
+
+<div id="logo"></div>
+<a name="case"></a>
+
+<div id="nav"> 
+<p align="right"> 
+<a href="news.html" onmouseover="rollOver('img3', 'img3on'); return true;" onmouseout="rollOver('img3', 'img3off'); return true;"><img src="images/i.off.gif" name="img3" border=0 alt="in the news"></a> 
+<img src="images/dot.gif"> 
+<a href="background.html" onmouseover="rollOver('img1', 'img1on'); return true;" onmouseout="rollOver('img1', 'img1off'); return true;"><img src="images/b.off.gif" name="img1" border=0 alt="background"></a> 
+<img src="images/dot.gif"> 
+<a href="resources.html" onmouseover="rollOver('img2', 'img2on'); return true;" onmouseout="rollOver('img2', 'img2off'); return true;"><img src="images/r.off.gif" name="img2" border=0 alt="resources"></a> 
+<img src="images/dot.gif"> 
+<a href="contacts.html" onmouseover="rollOver('img4', 'img4on'); return true;" onmouseout="rollOver('img4', 'img4off'); return true;"><img src="images/c.off.gif" name="img4" border=0 alt="contacts"></a> 
+&nbsp; </p>
+</div>
+
+</body>
+</html>

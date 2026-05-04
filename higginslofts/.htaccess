@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Access to /jaxco/higginslofts"
+AuthUserFile /kunden/homepages/26/d95440811/htpasswd
+Require user jax

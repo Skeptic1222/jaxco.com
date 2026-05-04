@@ -1,0 +1,26 @@
+<tr> 
+<td colspan=3><img src="images/adult.gif" alt="adult" width="62" height="19" border="0"></td>
+</tr>
+
+<tr> 
+<td colspan=3>&nbsp;</td>
+</tr>
+
+<tr> 
+<td colspan=3><center>
+<font face="trebuchet ms,arial", "sans-serif"> 
+<h4>Adult Sites<br>
+<font size=2>(did we mention we’re based in Los Angeles?)</font></h4>
+</font> </center></td>
+</tr>
+<tr> 
+<td> <a href="alt_portfolio2.html" onmouseover="window.status='Adult Site portfolio - over 21 please.'; return true;" onmouseout="window.status='JAXCO Website Devleopment Portfolio'; return true;"><img src="images/mask.gif" width=210 height=130 border=0 alt="Visit the Adult Sites Portfolio"></a> 
+</td>
+<td>&nbsp;</td>
+<td> <font face="trebuchet ms,arial", "sans-serif" size=2> 
+<p class="4"> This section of our portfolio links to sites that contain 
+adult content. If you find this type of content offensive, are under 21 
+years of age, or if adult material is illegal in your area, please do 
+not continue. Otherwise, click <a href="alt_portfolio2.html" onmouseover="window.status='Adult Site Portfolio - over 21 please.'; return true;" onmouseout="window.status='JAXCO Website Devleopment Portfolio'; return true;">here</a> 
+to view the Adult Sites portion of our portfolio. </font> </td>
+</tr>

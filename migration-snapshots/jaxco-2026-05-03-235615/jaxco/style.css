@@ -1,0 +1,25 @@
+<!--JAXCO Design & Development-->
+<!--©1997-2004 JAXCO Design & Development. All Rights Reserved-->
+
+body {
+	background-color: "White";
+	font: "Trebuchet MS", "Arial", "Helvetica", "sans-serif";
+}
+
+td   {	font: 10pt/16pt "Trebuchet MS", "Arial", "Helvetica", "sans-serif";
+}
+
+a:link    { color: #6495ed; text-decoration: none }
+a:visited { color: slategray; text-decoration: none }
+a:hover   { color: #dc0000; text-decoration: none }
+
+font.1 {
+	font: xx-small "Arial", "Helvetica", "sans-serif";
+}
+
+font.2 {
+	font: x-small "Trebuchet MS", "Arial", "Helvetica", "sans-serif";
+}
+
+p    { 	text-align: justify; 
+	text-indent: 0.42in }
